@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   favicon: "favicon.ico",
 };
 
+export const runtime=edge
+
 export default function RootLayout({
   children,
 }: {
